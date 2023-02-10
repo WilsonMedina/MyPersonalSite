@@ -93,19 +93,16 @@ header .container{
     background-position: center center;
 }
 
-#about .container{
-    text-align: center;
-    padding: 80px 20px;
-    justify-content: flex-start;
-}
-
-#about .about-photo{
+.about-photo{
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: justify;
+    text-align: center;
     flex-direction: column;
-    height: 90vh;
+    height: 95vh;
+    padding-top: 50px;
+    margin-top: 80px;
+    margin-bottom: 50px;
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.1),
@@ -117,9 +114,20 @@ header .container{
     background-position: center center;
 }
 
+#about{
+    background: rgb(0, 0, 0);
+}
+
+#about .container{
+    text-align: center;
+    padding: 80px 20px;
+    justify-content: flex-start;
+}
+
 #about .about-texto{
-    padding: 20px;
+    padding: 10px;
     text-align: justify;
+    color: white;
 }
 
 footer{
